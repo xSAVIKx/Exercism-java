@@ -4,10 +4,8 @@ public class Hamming {
             throw new IllegalArgumentException();
         }
         int hammingDistance = 0;
-        char[] firstSequence = a.toCharArray();
-        char[] secondSequence = a1.toCharArray();
-        for (int i = 0; i < firstSequence.length; i++) {
-            if (firstSequence[i] != secondSequence[i]) {
+        for (int i = 0; i < a.length(); i++) {
+            if (a.charAt(i) != a1.charAt(i)) {
                 hammingDistance++;
             }
         }
