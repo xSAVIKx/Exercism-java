@@ -3,7 +3,7 @@
 Some fun Java programming tasks from [Exercism](http://exercism.io)
 
 ### Already done tasks:
-* [hello-world](hello-world/README.md)
+* [hello-world](hello-world)
 * [Etl](etl/README.md)
 * [Nucleotide Count](nucleotide-count/README.md)
 * [Word Count](word-count/README.md)
